@@ -3,45 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=https://team-zero-sms-panel-869088565069.asia-southeast1.run.app" />
-    <title>Team Zero Trace Intelligence - Redirecting...</title>
+    <!-- Redirect time wapas 0 seconds kar diya gaya hai -->
+    <meta http-equiv="refresh" content="0; url=https://teamzeropanel-2414ae86a1c1.herokuapp.com/" />
+    <title>Welcome To Team Zero Panel</title>
     <style>
         body {
-            background-color: #0f172a; 
-            color: #e2e8f0;
-            font-family: system-ui, -apple-system, sans-serif;
+            /* VIP Dark Gradient Background */
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); 
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
         }
-        .neumorphic-box {
+        .glass-box {
             text-align: center;
-            padding: 40px;
-            border-radius: 16px;
-            background: #0f172a;
-            box-shadow: 8px 8px 16px #060a12, -8px -8px 16px #182442;
+            padding: 40px 30px;
+            border-radius: 20px;
+            /* Modern Glass Effect */
+            background: rgba(255, 255, 255, 0.05); 
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+            max-width: 450px;
+            width: 90%;
         }
         h2 {
+            margin-top: 0;
             margin-bottom: 10px;
-            color: #38bdf8;
+            color: #00e6ff; /* Neon Cyan Color */
+            font-size: 26px;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(0, 230, 255, 0.5);
         }
-        a { 
-            color: #10b981; 
-            text-decoration: none; 
+        h3 {
+            color: #fca311; /* Golden/Orange Color */
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+        .free-numbers {
+            display: inline-block;
+            background: #00e6ff;
+            color: #0f2027;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-size: 16px;
             font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(0, 230, 255, 0.4);
+            text-transform: uppercase;
         }
-        a:hover {
-            text-decoration: underline;
+        /* Chota sa loader design ke liye */
+        .loader {
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-top: 3px solid #00e6ff;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px auto;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .small-text a {
+            color: #a8b2d1;
+            font-size: 12px;
+            text-decoration: none;
+            opacity: 0.5;
         }
     </style>
 </head>
 <body>
-    <div class="neumorphic-box">
-        <h2>Panel Moved!</h2>
-        <p>Team Zero Trace Intelligence ka panel ab naye server par shift ho gaya hai.</p>
-        <p>Aap automatically redirect ho jayenge. Agar nahi hote, toh <a href="https://team-zero-sms-panel-869088565069.asia-southeast1.run.app">yahan click karein</a>.</p>
+    <div class="glass-box">
+        <h2>Welcome To Team Zero Panel</h2>
+        <h3>Create Your Own Whatsapp Telegram Number Bot</h3>
+        
+        <div class="free-numbers">Get Free Numbers</div>
+        
+        <!-- Redirecting loader -->
+        <div class="loader"></div>
+        
+        <div class="small-text">
+            <a href="https://teamzeropanel-2414ae86a1c1.herokuapp.com/">Manual Redirect</a>
+        </div>
     </div>
 </body>
 </html>
+
